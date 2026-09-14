@@ -53,6 +53,22 @@ test('flat yaml diff (plain)', () => {
   expect(genDiff(file1, file2, 'plain')).toEqual(expectedPlain)
 })
 
+test('flat json diff (json format)', () => {
+  const file1 = getFixturePath('file1.json')
+  const file2 = getFixturePath('file2.json')
+  const result = genDiff(file1, file2, 'json')
+
+  expect(() => JSON.parse(result)).not.toThrow()
+})
+
+test('flat yaml diff (json format)', () => {
+  const file1 = getFixturePath('file1.yml')
+  const file2 = getFixturePath('file2.yml')
+  const result = genDiff(file1, file2, 'json')
+
+  expect(() => JSON.parse(result)).not.toThrow()
+})
+
 test('should throw error for unsupported file formats', () => {
   const txtFile1 = getFixturePath('file1.txt')
   const txtFile2 = getFixturePath('file2.txt')

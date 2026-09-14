@@ -1,5 +1,6 @@
 import formatStylish from './stylish.js'
 import formatPlain from './plain.js'
+import formatJson from './json.js'
 
 const chooseFormatter = (diff, formatName) => {
   if (formatName === 'stylish') {
@@ -7,6 +8,9 @@ const chooseFormatter = (diff, formatName) => {
   }
   if (formatName === 'plain') {
     return formatPlain(diff)
+  }
+  if (formatName === 'json') {
+    return formatJson(diff)
   }
   throw new Error(`Unknown format: ${formatName}`)
 }

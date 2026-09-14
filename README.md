@@ -49,6 +49,10 @@ https://asciinema.org/a/XnPr63WjnB6XsFrF
 
 https://asciinema.org/a/0PJtfsCEuZeF5x1D
 
+### Here is a demonstration of "gendiff" JSON output formatting:
+
+https://asciinema.org/a/k7Lccd2I8KtJ0xPZ
+
 ---
 
 <details>
