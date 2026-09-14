@@ -41,6 +41,10 @@ cd qa-engineer-js-from-scratch-project-87
 
 https://asciinema.org/a/2G74gwKXDALaLafH
 
+### Here is a demonstration of how the "gendiff" utility works (version with YAML flat comparsion and stylish output):
+
+https://asciinema.org/a/XnPr63WjnB6XsFrF
+
 ---
 
 <details>
