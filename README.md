@@ -1,5 +1,11 @@
 # Вычислитель отличий (QA JS)
 
+## Github Actions
+
+[![Node CI](https://github.com/Svetlana0531/qa-engineer-js-from-scratch-project-87/actions/workflows/main.yml/badge.svg)](https://github.com/Svetlana0531/qa-engineer-js-from-scratch-project-87/actions/workflows/main.yml)
+
+## Hexlet tests
+
 [![hexlet-check](https://github.com/Svetlana0531/qa-engineer-js-from-scratch-project-87/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Svetlana0531/qa-engineer-js-from-scratch-project-87/actions)
 
 **Gendiff** — это консольная утилита (CLI), предназначенная для сравнения двух конфигурационных файлов и вывода разницы между ними. Программа умеет находить добавленные, удаленные и измененные ключи, а также работает с глубоко вложенными структурами данных.
