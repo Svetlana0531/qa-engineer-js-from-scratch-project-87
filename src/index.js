@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import _ from 'lodash'
 import parse from './parsers.js'
-import formatStylish from './formatters/stylish.js'
+import chooseFormatter from './formatters/index.js'
 
 const buildAbsolutePath = filepath => path.resolve(process.cwd(), filepath)
 
@@ -39,11 +39,7 @@ const genDiff = (filePath1, filePath2, formatName = 'stylish') => {
 
   const diff = buildDiff(data1, data2)
 
-  if (formatName === 'stylish') {
-    return formatStylish(diff)
-  }
-
-  throw new Error(`Unknown format: ${formatName}`)
+  return chooseFormatter(diff, formatName)
 }
 
 export default genDiff

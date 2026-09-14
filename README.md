@@ -45,6 +45,10 @@ https://asciinema.org/a/2G74gwKXDALaLafH
 
 https://asciinema.org/a/XnPr63WjnB6XsFrF
 
+### Here is a demonstration of "gendiff" output formatted with the --format plain option:
+
+https://asciinema.org/a/0PJtfsCEuZeF5x1D
+
 ---
 
 <details>
